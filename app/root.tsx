@@ -6,7 +6,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "react-router";
-
+import ProfessionalCVV2 from './components/ProfessionalCVV2';
 import type { Route } from "./+types/root";
 import "./app.css";
 
