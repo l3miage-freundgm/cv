@@ -2,14 +2,14 @@
   "name": "my-cv",
   "private": true,
   "type": "module",
-  "homepage": "https://https://l3miage-freundgm.github.io/cv",
+  "homepage": "https://l3miage-freundgm.github.io",
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "deploy" : "gh-pages -d build -r https://github.com/l3miage-freundgm/cv"
   },
   "dependencies": {
     "@react-router/node": "^7.4.0",
