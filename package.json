@@ -2,6 +2,7 @@
   "name": "my-cv",
   "private": true,
   "type": "module",
+  "homepage": "https://https://l3miage-freundgm.github.io/cv",
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
