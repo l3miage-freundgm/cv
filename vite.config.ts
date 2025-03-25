@@ -8,4 +8,5 @@ export default defineConfig({
     reactRouter(),
     tsconfigPaths(),
   ],
+  base: "/cv",
 });
