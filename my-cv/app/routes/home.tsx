@@ -1,6 +1,6 @@
 import type { Route } from "./+types/home";
 import { Welcome } from "../welcome/welcome";
-import ProfessionalCVV2 from "~/components/ProfessionalCVV2";
+import ProfessionalCVV2 from "~/cv/cv";
 
 export function meta({}: Route.MetaArgs) {
   return [

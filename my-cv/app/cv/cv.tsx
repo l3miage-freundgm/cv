@@ -3,7 +3,7 @@ import * as htmlToImage from 'html-to-image';
 import * as jsPDF from 'jspdf';
 import {
   User,
-  Mail,
+  Mail, 
   Phone,
   Code,
   Briefcase,
