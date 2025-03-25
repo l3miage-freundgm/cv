@@ -1,14 +1,14 @@
 import type { Route } from "./+types/home";
 import { Welcome } from "../welcome/welcome";
-import ProfessionalCVV2 from "~/cv/cv";
+import CV from "~/cv/cv";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "FREUND GALEANO Matias" },
+    { name: "description", content: "Welcome to my React CV!" },
   ];
 }
 
 export default function Home() {
-  return <ProfessionalCVV2 />;
+  return <CV />;
 }

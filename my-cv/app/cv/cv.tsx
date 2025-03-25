@@ -46,7 +46,7 @@ interface Project {
   githubLink?: string;
 }
 
-const ProfessionalCVV2: React.FC = () => {
+const CV: React.FC = () => {
   // State Management
   const [activeSection, setActiveSection] = useState<'summary' | 'skills' | 'experience' | 'projects'>('summary');
   const [contactForm, setContactForm] = useState({
@@ -313,4 +313,4 @@ const ProfessionalCVV2: React.FC = () => {
   );
 };
 
-export default ProfessionalCVV2;
+export default CV;
